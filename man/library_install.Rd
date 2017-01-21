@@ -18,8 +18,12 @@ e.g., the URL of a CRAN mirror such as "https://cloud.r-project.org".}
 Load a multiple packages, install most recent versions if missing
 }
 \examples{
+library_install('utils')
+
+\dontrun{
 packages <- c('networkD3', 'coreSim')
 library_install(packages)
+}
 
 }
 

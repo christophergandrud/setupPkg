@@ -6,8 +6,12 @@
 #' @param ... arguments passed to \code{\link{install.packages}}.
 #'
 #' @examples
+#' library_install('utils')
+#'
+#' \dontrun{
 #' packages <- c('networkD3', 'coreSim')
 #' library_install(packages)
+#' }
 #'
 #' @importFrom utils install.packages installed.packages
 #'

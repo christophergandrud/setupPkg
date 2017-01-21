@@ -2,6 +2,8 @@
 
 > One Function To Install and Load Packages
 
+[![CRAN Version](http://www.r-pkg.org/badges/version/setupPkg)](https://cran.r-project.org/package=setupPkg)
+
 When working across multiple machines and, similarly for
 reproducible research, it can be time consuming to ensure that you have
 all of the needed packages installed and loaded. setupPkg provides one
@@ -19,3 +21,6 @@ packages <- c('networkD3', 'coreSim')
 
 library_install(packages)
 ```
+
+Of course, users will have to install the **setupPkg**, but this is one
+quick installation, as the package has no dependencies.
