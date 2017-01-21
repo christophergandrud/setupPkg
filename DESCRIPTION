@@ -1,0 +1,19 @@
+Package: setupPkg
+Type: Package
+Title: One Function To Install and Load Packages
+Version: 0.1.0
+Authors@R: c(
+    person("Christopher", "Gandrud", email = "christopher.gandrud@gmail.com",
+    role = c("aut", "cre"))
+    )
+Description: When working across multiple machines and, similarly for
+    reproducible research, it can be time consuming to ensure that you have
+    all of the needed packages installed and loaded. setupPkg provides one
+    simple function that checks if needed packages are installed, installs them
+    if missing, and then loads all of the requested packages. Include at the
+    top of all your R source code files to make sure that all packages needed to
+    run a script are installed and loaded.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
