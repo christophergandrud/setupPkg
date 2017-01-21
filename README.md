@@ -3,6 +3,7 @@
 > One Function To Install and Load Packages
 
 [![CRAN Version](http://www.r-pkg.org/badges/version/setupPkg)](https://cran.r-project.org/package=setupPkg)
+[![Build Status](https://travis-ci.org/christophergandrud/setupPkg.svg?branch=master)](https://travis-ci.org/christophergandrud/setupPkg)
 
 When working across multiple machines and, similarly for
 reproducible research, it can be time consuming to ensure that you have
